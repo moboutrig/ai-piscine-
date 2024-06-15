@@ -1,29 +1,4 @@
-{
- "metadata": {
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": 3
-  },
-  "orig_nbformat": 2
- },
- "nbformat": 4,
- "nbformat_minor": 2,
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import numpy as np
+import numpy as np
 from itertools import permutations
 
 # Read the matrix from file
@@ -72,8 +47,3 @@ for i, (team1, team2) in enumerate(best_pairing):
     result[1].append(f"m{i+1}_t2: Team {team2+1}")
 
 print(np.array(result))
-"
-   ]
-  }
- ]
-}
